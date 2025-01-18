@@ -8,7 +8,7 @@ if (!(test-path ".\gamesList.json")){Invoke-WebRequest https://raw.githubusercon
 $json = Get-Content -Path ".\gamesList.json" -Raw | ConvertFrom-Json
 
 # CHECK IF "KEYS" FOLDER EXISTS, IF NOT, CREATE IT
-if (!(test-path ".\keys\")){md ".\keys\"}
+if (!(test-path ".\keys\")){[void](md ".\keys\")}
 
 # CHECK IF PS3DEC.EXE EXISTS, IF NOT, DOWNLOAD IT
 if (!(test-path ".\ps3dec.exe")){Invoke-WebRequest https://github.com/Redrrx/ps3dec/releases/download/0.2.0/ps3dec.exe -OutFile "ps3dec.exe"}
