@@ -3,15 +3,15 @@
 No manual intervention is required: the script handles everything from start to finish!
 
 ## Key Features :
-- **Automatic download of ps3dec**: the tool is fetched if it’s not already present.
-- **.dkey file generation**: automatically creates the correct key file for your ISO.
+- **Automatic download of PS3DEC**: the tool is fetched if it’s not already present.
 - **MD5 checksum verification**: ensures the integrity of your file before starting decryption.
-- **Decryption and cleanup**: deletes the non-decrypted ISO after the process is complete.
+- **.dkey file generation**: automatically creates the correct key file for your ISO.
+- **Decryption and cleanup**: start the decryption process automatically and deletes the non-decrypted ISO after the process is complete.
 
 ## Benefits :
-**Fully automated**: no manual steps needed.
-**Fast and straightforward**: perfect for users looking for an efficient, hassle-free solution.
-**Reliable**: performs checks to guarantee a flawless output.
+- **Fully automated**: no manual steps needed.
+- **Fast and straightforward**: perfect for users looking for an efficient, hassle-free solution.
+- **Reliable**: performs checks to guarantee a flawless output.
 
 ## Usage :
 1. Place your ISO file in the same folder as the script.  
@@ -19,10 +19,10 @@ No manual intervention is required: the script handles everything from start to 
    ```powershell
    .\AutoDecryptPS3.ps1
 
-## Contribute:
+## Contribute :
 Contributions are always welcome! If you have ideas for improvements or need to report an issue, feel free to open an issue or submit a pull request.
 
-## Acknowledgements:
+## Acknowledgements :
 - [PS3DEC by Redrrx](https://github.com/Redrrx/ps3dec)
 - [Aldostools PS3 DKEY Database](https://ps3.aldostools.org/dkey.html)
 - [redump.org](http://redump.org/)
