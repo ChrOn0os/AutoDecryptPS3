@@ -23,7 +23,7 @@ No manual intervention is required: the script handles everything from start to 
 
 2. Run the PowerShell script:
    ```powershell
-   .\AutoDecryptPS3.ps1
+   .\AutoDecrypt.ps1
 
 ## 🤝 Contribute :
 Contributions are always welcome! If you have ideas for improvements or need to report an issue, feel free to open an issue or submit a pull request.
