@@ -4,7 +4,7 @@ No manual intervention is required: the script handles everything from start to 
 
 ## ✨ Key Features :
 - **Automatic download of PS3DEC**: the tool is fetched if it’s not already present.
-- **.zip file support**: install a decompression tool (7Zip4Powershell) if needed, extracts archive and deletes the .zip file once the extraction is complete.
+- **.zip file support**: install a decompression tool ([7Zip4Powershell](https://github.com/thoemmi/7Zip4Powershell)) if needed, extracts archive and deletes the .zip file once the extraction is complete.
 - **MD5 checksum verification**: ensures the integrity of your file before starting decryption.
 - **Automatic DKEY retrieval**: automatically fetch the correct key for your ISO.
 - **Decryption and cleanup**: start the decryption process automatically and deletes the non-decrypted ISO after the process is complete.
